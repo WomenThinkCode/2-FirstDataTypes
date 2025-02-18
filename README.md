@@ -43,7 +43,7 @@ To create a scanner object and connect it to the system.in object:
      public static void main(String[] args)
      {
        String name;
-       Scanner input = new Scanner.(System.in);
+       Scanner input = new Scanner(System.in);
        System.out.println("Enter you name>> ");
        name = input.nextLine();
        System.out.println(name);
@@ -65,7 +65,7 @@ import java.util.Scanner;
      {
        String name;
        int age;
-       Scanner input = new Scanner.(System.in);
+       Scanner input = new Scanner(System.in);
        System.out.println("Enter you age>> ");
        age = input.nextInt();
        input.nextLine(); // solution
@@ -95,8 +95,7 @@ The type of dialog box can only be chosen from the following:
 ERROR_MESSAGE, INFORMATION_MESSAGE, PLAIN_MESSAGE, QUESTION_MESSAGE or WARNING_MESSAGE.
 
 ## Exercises 
-1. Create a branch and complete these exercise
-2. These exercise must be completed using  GUI components that customised. 
+1. Create a branch and complete these exercise.
 
 ### MinutesConversion
 In a file called MinutesConversion.java create an application that takes use input as an int and 
