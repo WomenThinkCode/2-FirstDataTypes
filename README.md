@@ -98,8 +98,7 @@ ERROR_MESSAGE, INFORMATION_MESSAGE, PLAIN_MESSAGE, QUESTION_MESSAGE or WARNING_M
 1. Create a branch and complete these exercise.
 
 ### MinutesConversion
-In a file called MinutesConversion.java create an application that takes use input as an int and 
-int of minutes and coverts it to hours and days.
+In a file called MinutesConversion.java create an application that takes use input as an int of minutes and coverts it to hours and days.
 
 ### ElectionStatistics
 In a file called ElectionStatistics.java create an application that takes user input for three
