@@ -88,8 +88,8 @@ String answers = JOptionPane.CornfrmDialog(null, "Enter something please!");
 ### Modifying the appearance of a dialog box
 The dialog box method can take up to 4 arguments that can change its appearance.
 ```bash
-String var = JOptionPane.showInputDailog(null, "text to be displayed", "The title of the dialog box", "The type of dialog box")
-String var = JOptionPane.showInputDialog(null, "Are you ok guys? Lets talk to each.", "Concerned...", "QUESTION_MESSAGE");
+String var = JOptionPane.showInputDailog(null, "text to be displayed", "The title of the dialog box", The type of dialog box)
+String var = JOptionPane.showInputDialog(null, "Are you ok guys? Lets talk to each.", "Concerned...", JOptionPane.QUESTION_MESSAGE);
 ```
 The type of dialog box can only be chosen from the following:
 ERROR_MESSAGE, INFORMATION_MESSAGE, PLAIN_MESSAGE, QUESTION_MESSAGE or WARNING_MESSAGE.
