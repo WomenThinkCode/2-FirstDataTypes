@@ -2,7 +2,6 @@
 import javax.swing.JOptionPane;
 
 
-
 public class MinutesConversion {
     public static void main(String[] args) {
         String input =  JOptionPane.showInputDialog("Enter minutes:");
