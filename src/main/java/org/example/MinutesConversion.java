@@ -10,7 +10,7 @@ public class MinutesConversion {
 
         System.out.println("Enter the minutes: ");
         minutes = scanner.nextInt();
-
+        // conversion calculations
         hours= minutes/60;
         days = hours/24;
         System.out.println("Hours: "+ hours);
